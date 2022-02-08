@@ -1,4 +1,5 @@
-#!pip install Pillow # used to resize images
+#!pip install Pillow           # used to resize images
+#!pip install opencv-python
 #!pip install psychopy
 #!pip install python-pygaze
 #!pip install pygame
@@ -22,6 +23,7 @@ import pandas as pd
 from PIL import Image
 import tensorflow as tf
 
+import cv2            #openCV
 
 import pygaze
 print("Running setup for PyGaze version {}".format(pygaze.__version__))
