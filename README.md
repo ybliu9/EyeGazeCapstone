@@ -8,7 +8,8 @@ This is a Capstone Project for Columbia University in collaboration with JP Morg
 
 For developer and user convienience, we use python virtual environments for dependencies. The virtual environments use python 3.7 and is under the folder "eyegaze".
 
-To start with, download the entire *lib/eyegaze* directory into your working directory and <b>cd to the directory</b>.
+To start with, download the entire *eyegaze* folder in: https://drive.google.com/drive/folders/1u7680FylFu24XL-wcUKhH9chFj1conM-?usp=sharing
+into your working directory, and <b>cd to the directory</b>.
 
 ```
 # install venv, please ignore if you already have installed
