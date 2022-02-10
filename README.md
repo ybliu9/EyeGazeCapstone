@@ -45,5 +45,5 @@ Alternatively, you can install all dependencies on your python environments:
 2. Install
 ```
 # install all dependencies
-pip -r requirements.txt
+pip install -r requirements.txt
 ```
