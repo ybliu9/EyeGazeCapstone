@@ -11,7 +11,7 @@ Major toolboxes used: [pyGaze](https://github.com/esdalmaijer/PyGaze), [openCV](
 
 Key code has been wrapped up in an independent package named [**pyGazeTE**](https://github.com/ybliu9/pygazeTE). 
 
-Please find the full tutorial at https://medium.com/@yl4616/table-extraction-and-text-recognition-from-images-via-eye-gaze-tracking-ae22a707263 
+Please find the full tutorial at: https://medium.com/@yl4616/table-extraction-and-text-recognition-from-images-via-eye-gaze-tracking-ae22a707263 
 
 ## Setup
 
@@ -30,17 +30,22 @@ For developer and user convenience, we use Python virtual environments in **Anac
 (1) Open **Anaconda Prompt** and create a virtual environment named **eyegaze** and activate the venv:
 ```
 conda -V     #check if conda is installed
+
 ## create venv with your python version
-conda create -n eyegaze python=3.8 anaconda  
+conda create -n eyegaze python=3.8 anaconda 
+
 conda activate eyegaze    #activate virtual environment
 ```
 (2) Cd to the EyeGazeCapstone directory:
 ```
 ## For Windows OS:
 cd ./GitHub/EyeGazeCapstone/Table_extraction    #change working directory
+
 ## Upon successful activation, your command-line should show something like:
 ## (eyegaze) xxxx>
+
 ## Now you can start working within the environments
+
 ## to deactivate
 conda deactivate
 ```
@@ -55,7 +60,7 @@ ipython kernel install --user --name=pygaze
 ```
 Now you are able to choose the virtual environment under the "kernel" tab in your Jupyter Notebook.
 
-### Step 4. Connect to Gazepoint¡¯s eye tracking device
+### Step 4. Connect to Gazepoint's eye tracking device
 
 If you are using an eye tracker from Gazepoint, you can quickly set up your device following this [instruction manual](https://www.gazept.com/dl/gazepoint_quick_start.pdf).
 
