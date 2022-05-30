@@ -1,0 +1,38 @@
+pygaze initiation report start
+display resolution: 1024x1024
+display size in cm: 34.4x19.3
+samplerate: 60.0 Hz
+sampletime: 16.666666666666668 ms
+fixation threshold: 1.5 degrees
+speed threshold: 35 degrees/second
+acceleration threshold: 9500 degrees/second**2
+pygaze initiation report end
+pygaze calibration report start
+accuracy (degrees): LX=0.5966217553243341, LY=0.8940134803014822, RX=0.8233819950603048, RY=0.7717481582970503
+accuracy (in pixels): LX=24.835413333333335, LY=37.214435555555546, RX=34.27441777777777, RY=32.12515555555555
+precision (RMS noise in pixels): X=38.498565940602205, Y=40.044697980733986
+distance between participant and display: 57.0 cm
+fixation threshold: 61.811774782406964 pixels
+speed threshold: 1.4419454027142935 pixels/ms
+acceleration threshold: 395.01163389309914 pixels/ms**2
+pygaze calibration report end
+TRIALSTART 0
+IMAGENAME img22.png
+image online at 117913
+image offline at 129439
+TRIALEND 0
+TRIALSTART 1
+IMAGENAME img29.png
+image online at 134556
+image offline at 146077
+TRIALEND 1
+TRIALSTART 2
+IMAGENAME img37.png
+image online at 147190
+image offline at 158715
+TRIALEND 2
+TRIALSTART 3
+IMAGENAME img82.png
+image online at 180821
+image offline at 192340
+TRIALEND 3

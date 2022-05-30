@@ -11,53 +11,59 @@ Major toolboxes used: pygaze, openCV, pyTorch, pytesseract
 
 Key code has been wrapped up in an independent package named *pyGazeTE*. 
 
+Please find the full tutorial at https://medium.com/@yl4616/table-extraction-and-text-recognition-from-images-via-eye-gaze-tracking-ae22a707263 
+
 ## Setup
 
-### Clone Github Repo
-You would need to download this repo to a local directory or clone this repo in via Git Bash/Github Desktop.
+### Step 1. Clone the project GitHub repo. 
+You would need to download this repo to a local directory or clone it via Git Bash/GitHub Desktop.
+
 ```
-  git clone https://github.com/ybliu9/EyeGazeCapstone.git
-  cd EyeGazeCapstone      #working directory
-  ```
-
-### Virtual Environment
-For developer and user convienience, we use python virtual environments in Anaconda3 for dependencies. The virtual environments use python 3.8 and is under the folder "eyegaze".
-
-1. Download the entire *eyegaze* folder in: https://drive.google.com/drive/folders/1u7680FylFu24XL-wcUKhH9chFj1conM-?usp=sharing
-into your working directory, and <b>cd to the directory</b>.
-
-2. If you haven't, install venv
-  ```
-  python install virtualenv
-  ```
-
-3. activate and use
-  ```
-  # activate
-  source ./eyegaze/bin/activate
-  
-  ## Upon successful activation, your command-line should show something like:
-  ## (eyegaze) xxx: yyy$                                                   
-  ## Now you can start working within the environments
-  
-  # deactivate
-  deactivate
-  ```
-
-4. Use Jypyter Notebooks with virtual environments:
-  ```
-  # install this venv to ipykernel
-  python -m ipykernel install --user --name=eyegaze
-  ```
-Now you are able to choose the virtual environment under 'kernel' tab in your Jupyter Notebook.
-
-### (Alternative) Straight Installation
-Alternatively, you can install all dependencies on your python environments:
-
-1. Download the *requirements.txt* file in our project root directory and place in your current working directory. 
-
-2. Install
+git clone https://github.com/ybliu9/EyeGazeCapstone.git
 ```
-# install all dependencies
+### Step 2. Unzip pyGazeTE module and move it under ./site-packages. 
+All code for the pipeline has been wrapped in a python module called *pygazeTE*, and you can also find it in the repo at EyeGazeCapstone/lib/pygazete.zip. Unzip the file and move it to the path where your other python packages are saved, then you can import it as a normal package and use it outside this project in the future.
+
+### Step 3. Create a virtual environment and install dependencies. 
+For developer and user convenience, we use Python virtual environments in *Anaconda3* for dependencies. The virtual environments use python 3.8.
+
+(1) Open Anaconda Prompt and create a virtual environment named eyegaze and activate the venv:
+```
+conda -V     #check if conda is installed
+## create venv with your python version
+conda create -n eyegaze python=3.8 anaconda  
+conda activate eyegaze    #activate virtual environment
+```
+(2) Cd to the EyeGazeCapstone directory:
+```
+## For Windows OS:
+cd ./GitHub/EyeGazeCapstone/Table_extraction    #change working directory
+## Upon successful activation, your command-line should show something like:
+## (eyegaze) xxxx>
+## Now you can start working within the environments
+## to deactivate
+conda deactivate
+```
+(3) Install dependencies required
+```
 pip install -r requirements.txt
 ```
+(4) Use Jypyter Notebooks with virtual environments:
+```
+## install this venv to ipython kernel
+ipython kernel install --user --name=pygaze
+```
+Now you are able to choose the virtual environment under the ¡®kernel¡¯ tab in your Jupyter Notebook.
+
+### Step 4. Connect to Gazepoint¡¯s eye tracking device
+
+If you are using an eye tracker from Gazepoint, you can quickly set up your device following this [instruction manual](https://www.gazept.com/dl/gazepoint_quick_start.pdf).
+
+Please download the device control software Gazepoint Control from the official website https://www.gazept.com/downloads/ (Downloads are protected with a password, which can be found in the manual).
+
+Install and open *Gazepoint Control* and find the *IP address* of your device under Gazepoint Settings, just like the screenshot shown below. Your address can be a different one.
+
+
+### Step 5. Run the table extraction Jupyter Notebook
+
+Open *pygazeTE-tutorial.ipynb* in Jupyter Notebook, configure several important variables following the guide, and run the whole notebook. Make sure you use your virtual environment as the kernel.

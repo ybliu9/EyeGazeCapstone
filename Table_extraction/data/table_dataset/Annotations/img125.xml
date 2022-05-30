@@ -1,0 +1,26 @@
+<annotation>
+	<folder>orignal-images</folder>
+	<filename>img125.png</filename>
+	<path>/Users/zhongjie/MyWorkspace/temp/orignal-images/img125.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>633</width>
+		<height>805</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>table</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>80</xmin>
+			<ymin>86</ymin>
+			<xmax>546</xmax>
+			<ymax>368</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>orignal-images</folder>
+	<filename>img940.png</filename>
+	<path>/Users/zhongjie/MyWorkspace/temp/orignal-images/img940.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>633</width>
+		<height>805</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>table</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>350</xmin>
+			<ymin>107</ymin>
+			<xmax>592</xmax>
+			<ymax>539</ymax>
+		</bndbox>
+	</object>
+</annotation>

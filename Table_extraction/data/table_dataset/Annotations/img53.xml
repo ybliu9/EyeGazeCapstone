@@ -1,0 +1,26 @@
+<annotation>
+	<folder>orignal-images</folder>
+	<filename>img53.png</filename>
+	<path>/Users/zhongjie/MyWorkspace/temp/orignal-images/img53.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>637</width>
+		<height>805</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>table</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>75</xmin>
+			<ymin>156</ymin>
+			<xmax>556</xmax>
+			<ymax>459</ymax>
+		</bndbox>
+	</object>
+</annotation>
