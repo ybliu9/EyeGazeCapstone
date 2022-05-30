@@ -1,13 +1,27 @@
 # Table Extraction via Eye Gaze Tracking
 ## Overview
-In this project, we design a system to automatically extract tables from a document by using eye gaze, and then evaluate this system relative to manual extraction with respect to both speed and accuracy. 
 
-This is a Capstone Project for Columbia University in collaboration with JP Morgan AI Research Institude.
+This is a Capstone Project for the Data Science Institute of Columbia University in collaboration with JP Morgan AI Research Team.
+
+In this project, we designed a system incorporating Computer Vision (CV) and Optical Character Recognition (OCR) techniques to automatically detect tables from a document, determine the table of interest by tracking eye gaze, and then extract texts within the tables. 
+
+The eye gaze tracking technology used was Gazepoint's eye tracker GP3, and its device control software *Gazepoint Control* and *Gazepoing Analysis* were available under Windows OS. 
+
+Major toolboxes used: pygaze, openCV, pyTorch, pytesseract
+
+Key code has been wrapped up in an independent package named *pyGazeTE*. 
 
 ## Setup
 
+### Clone Github Repo
+You would need to download this repo to a local directory or clone this repo in via Git Bash/Github Desktop.
+```
+  git clone https://github.com/ybliu9/EyeGazeCapstone.git
+  cd EyeGazeCapstone      #working directory
+  ```
+
 ### Virtual Environment
-For developer and user convienience, we use python virtual environments for dependencies. The virtual environments use python 3.7 and is under the folder "eyegaze".
+For developer and user convienience, we use python virtual environments in Anaconda3 for dependencies. The virtual environments use python 3.8 and is under the folder "eyegaze".
 
 1. Download the entire *eyegaze* folder in: https://drive.google.com/drive/folders/1u7680FylFu24XL-wcUKhH9chFj1conM-?usp=sharing
 into your working directory, and <b>cd to the directory</b>.
